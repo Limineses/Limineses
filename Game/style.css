@@ -1,0 +1,118 @@
+body
+{
+	background: url(image/battelground.png) no-repeat;
+	background-size: 100%;
+}
+div
+{
+	position: absolute;
+}
+img
+{
+	position: absolute;
+	top: 125px;
+	left: 0;
+}
+#infoBox
+{
+	height: 20%;
+	width: 50%;
+	background-color: black;
+	top: 60%;
+	left: 25%;
+	padding: 5px 20px;
+	border: 2px solid grey;
+	overflow: auto;
+	color: white;
+	font-size: 20px;
+}
+#crusader
+{
+	background: url(image/crusader.gif) no-repeat;
+	height: 155px;
+	width: 90px;
+	top: 15%;
+	left: 20%;
+}
+#griffon
+{
+	background: url(image/griffon.gif) no-repeat;
+	height: 155px;
+	width: 90px;
+	top: 35%;
+	left: 20%;
+}
+#knight
+{
+	background: url(image/deadKnight.gif) no-repeat;
+	height: 155px;
+	width: 90px;
+	top: 15%;
+	left: 80%;
+}
+	#sphere
+	{
+		left: 30px;
+	}
+#skeleton
+{
+	background: url(image/skeleton.gif) no-repeat;
+	height: 155px;
+	width: 90px;
+	top: 35%;
+	left: 80%;
+}
+	#griffonHP, #crusaderHP, #skeletonHP, #knightHP
+	{
+		height: 10px;
+		width: 100px;
+		top: 0;
+		left: 0;
+		background-color: #D20000;
+		border-radius: 3px;
+	}
+	.hpBorder
+	{
+		height: 10px;
+		width: 100px;
+		top: 0;
+		left: 0;
+		border: 1px solid black;
+		border-radius: 3px;
+		box-sizing: border-box;
+	}
+	.mes
+	{
+		display: block;
+	}
+	.dead
+	{
+		color: #FFC600;
+	}
+	.red
+	{
+		color: #DD0000;
+	}
+	.green
+	{
+		color: #55A004;
+	}
+	.win
+	{
+		color: #F0D100;
+		font-size: 60px;
+	}
+#audioBut
+{
+	height: 60px;
+	width: 60px;
+	top: 0;
+	left: 0;
+	background: url('https://img.icons8.com/ios-glyphs/60/000000/apple-music.png') center center ;
+	outline: none;
+	box-shadow: 2px 2px 5px black;
+}
+.active
+{
+	background-color: #A5EAEE!important;
+}
