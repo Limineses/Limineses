@@ -1,0 +1,78 @@
+table
+{
+    /*margin: 50px auto;*/
+    border-collapse: collapse;
+    background-image: url(image/floor.jpg);
+    position: fixed;
+    top: 10%;
+    left: 20%;
+}
+td
+{
+    width: 40px;
+    height: 40px;
+    border-collapse: collapse;
+}
+body
+{
+    background-color: #000000;
+}
+.wall
+{
+    background-image: url(image/wall.jpg);
+}
+.exit
+{
+    background-image: url(image/exit.jpg);
+}
+.close
+{
+    display:none;
+}
+.endGame
+{
+    background-image: url(image/win.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+    z-index: 1;
+}
+button
+{
+    background-color: #c99433;
+    margin-left: 30px;
+}
+#button
+{
+    width: 250px;
+    padding-top: 60%;
+    padding-left: 38%;
+}
+#fieldForAnimation
+{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    padding:42px;
+    top: 10%;
+    left: 20%;
+    width: 672px;
+    height: 672px;
+    z-index: 1;
+}
+#player
+{
+    height: 42px;
+    width: 42px;
+    position: absolute;
+}
+/*#img
+{
+    transition: all 1s ease-in-out;
+}
+*/

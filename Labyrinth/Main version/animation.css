@@ -1,0 +1,211 @@
+.rightAnimation
+{
+    animation: moveRight 0.4s  ease-in-out;
+}
+.leftAnimation
+{
+    animation: moveLeft 0.4s  ease-in-out;
+}
+.upAnimation
+{
+    animation: moveUp 0.4s  ease-in-out;
+}
+
+.downAnimation
+{
+    animation: moveDown 0.4s  ease-in-out;
+}
+
+
+
+@keyframes moveRight {
+    0% 
+    {
+        transform: translate(0,0);
+        background-image: url(image/player/right.png);
+    }
+    13% 
+    {
+        transform: translate(5px,0);
+        background-image: url(image/player/right1.png);
+    }
+    26% 
+    {
+        transform: translate(10px,0);
+        background-image: url(image/player/right.png);
+    }
+    39% 
+    {
+        transform: translate(15px,0);
+        background-image: url(image/player/right2.png);
+    }
+    52% 
+    {
+        transform: translate(20px,0);
+        background-image: url(image/player/right.png);
+    }
+    65% 
+    {
+        transform: translate(25px,0);
+        background-image: url(image/player/right1.png);
+    }
+    78% 
+    {
+        transform: translate(30px,0);
+        background-image: url(image/player/right.png);
+    }
+    91% 
+    {
+        transform: translate(35px,0);
+        background-image: url(image/player/right2.png);
+    }
+    100% 
+    {
+        transform: translate(42px,0);
+        background-image: url(image/player/right.png);
+    }
+}
+
+@keyframes moveLeft {
+    0% 
+    {
+        transform: translate(0,0);
+        background-image: url(image/player/left.png);
+    }
+    13% 
+    {
+        transform: translate(-5px,0);
+        background-image: url(image/player/left1.png);
+    }
+    26% 
+    {
+        transform: translate(-10px,0);
+        background-image: url(image/player/left.png);
+    }
+    39% 
+    {
+        transform: translate(-15px,0);
+        background-image: url(image/player/left2.png);
+    }
+    52% 
+    {
+        transform: translate(-20px,0);
+        background-image: url(image/player/left.png);
+    }
+    65% 
+    {
+        transform: translate(-25px,0);
+        background-image: url(image/player/left1.png);
+    }
+    78% 
+    {
+        transform: translate(-30px,0);
+        background-image: url(image/player/left.png);
+    }
+    91% 
+    {
+        transform: translate(-35px,0);
+        background-image: url(image/player/left2.png);
+    }
+    100% 
+    {
+        transform: translate(-42px,0);
+        background-image: url(image/player/left.png);
+    }
+}
+
+@keyframes moveUp {
+    0% 
+    {
+        transform: translate(0,0);
+        background-image: url(image/player/up1.png);
+    }
+    13% 
+    {
+        transform: translate(0,-5px);
+        background-image: url(image/player/up2.png);
+    }
+    26% 
+    {
+        transform: translate(0,-10px);
+        background-image: url(image/player/up1.png);
+    }
+    39% 
+    {
+        transform: translate(0,-15px);
+        background-image: url(image/player/up2.png);
+    }
+    52% 
+    {
+        transform: translate(0,-20px);
+        background-image: url(image/player/up1.png);
+    }
+    65% 
+    {
+        transform: translate(0,-25px);
+        background-image: url(image/player/up2.png);
+    }
+    78% 
+    {
+        transform: translate(0,-30px);
+        background-image: url(image/player/up1.png);
+    }
+    91% 
+    {
+        transform: translate(0,-35px);
+        background-image: url(image/player/up2.png);
+    }
+    100% 
+    {
+        transform: translate(0,-42px);
+        background-image: url(image/player/up1.png);
+    }
+}
+
+@keyframes moveDown {
+    0% 
+    {
+        transform: translate(0,0);
+        background-image: url(image/player/down1.png);
+    }
+    13% 
+    {
+        transform: translate(0,5px);
+        background-image: url(image/player/down2.png);
+    }
+    26% 
+    {
+        transform: translate(0,10px);
+        background-image: url(image/player/down1.png);
+    }
+    39% 
+    {
+        transform: translate(0,15px);
+        background-image: url(image/player/down2.png);
+    }
+    52% 
+    {
+        transform: translate(0,20px);
+        background-image: url(image/player/down1.png);
+    }
+    65% 
+    {
+        transform: translate(0,25px);
+        background-image: url(image/player/down2.png);
+    }
+    78% 
+    {
+        transform: translate(0,30px);
+        background-image: url(image/player/down1.png);
+    }
+    91% 
+    {
+        transform: translate(0,35px);
+        background-image: url(image/player/down2.png);
+    }
+    100% 
+    {
+        transform: translate(0,42px);
+        background-image: url(image/player/down1.png);
+    }
+}
