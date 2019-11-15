@@ -1,0 +1,91 @@
+body
+{
+     background: #A6AC6A;
+}
+.col
+{
+    width: 20px;
+}
+#world
+{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    float: left;
+}
+.col div
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    border: dotted #594B4B 1px;
+}
+img
+{
+    margin: 2px 0px 0px 2px;
+}
+#controlPanel
+{
+    width: 120px;
+    margin-left:800px;
+}
+#controlPanel > div
+{
+    text-align: center;
+    border:solid black 1px;
+}
+.swapStart
+{
+    background: #13852B ;
+    background-image: url('https://img.icons8.com/material-outlined/30/000000/circled-play.png') ;
+}
+.swapStop
+{
+    background: #DF0F23 ;
+    background-image: url(https://img.icons8.com/material-outlined/30/000000/pause-squared.png);
+}
+#start
+{
+    height: 33px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#step
+{
+    background: #C4E082;
+    height: 33px;
+}
+#x1
+{
+    background: #7E66E4 ;
+    height: 33px;
+}
+#x2
+{
+    background: #6142E5 ;
+    height: 33px;
+}
+#x3
+{
+    background: #431EE3 ;
+    height: 33px;
+}
+#animation
+{
+    font-size: 18px;
+    font-weight: 600;
+    height: 50px;
+    background: #7D92A0 ;
+}
+#clear
+{
+    background: #C2BFD1 ;
+    height: 33px;
+}
+#info
+{
+    background: #FFFFFF ;  
+    margin-top: 60px; 
+}
